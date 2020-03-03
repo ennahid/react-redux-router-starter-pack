@@ -19,4 +19,3 @@ function mapStateToProps(state, ownProps) {
 }
 
 export default connect(mapStateToProps)(withTranslation()(HomePage));
-// export default withTranslation(connect(mapStateToProps)(HomePage));
